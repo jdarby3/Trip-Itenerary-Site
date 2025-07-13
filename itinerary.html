@@ -330,7 +330,10 @@
     </div>
 
     <script>
-        (function(){var _0x2f1a=['getItem','authenticated','true','href','index.html'];var _0x1b3c=function(_0x2f1a,_0x1b3c){return _0x2f1a[parseInt(_0x1b3c)];};if(sessionStorage[_0x1b3c(_0x2f1a,'0')](_0x1b3c(_0x2f1a,'1'))!==_0x1b3c(_0x2f1a,'2')){window['location'][_0x1b3c(_0x2f1a,'3')]=_0x1b3c(_0x2f1a,'4');}})();
+        // Check if user is authenticated
+        if (sessionStorage.getItem('authenticated') !== 'true') {
+            window.location.href = 'index.html';
+        }
     </script>
 </body>
 </html> 
