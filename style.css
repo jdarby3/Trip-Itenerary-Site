@@ -107,7 +107,7 @@ body {
 }
 
 .time {
-    min-width: 90px;
+    min-width: auto;
     font-weight: 600;
     color: #525B02;
     font-size: 0.95rem;
@@ -500,7 +500,7 @@ body {
     }
     
     .time {
-        min-width: 80px;
+        min-width: auto;
         font-size: 0.9rem;
         word-wrap: break-word;
         hyphens: auto;
