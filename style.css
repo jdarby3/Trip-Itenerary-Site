@@ -112,6 +112,9 @@ body {
     color: #525B02;
     font-size: 0.95rem;
     padding-top: 2px;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.2;
 }
 
 .activity {
@@ -499,6 +502,9 @@ body {
     .time {
         min-width: 80px;
         font-size: 0.9rem;
+        word-wrap: break-word;
+        hyphens: auto;
+        line-height: 1.2;
     }
     
     .activity {
