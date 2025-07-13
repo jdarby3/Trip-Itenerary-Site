@@ -167,37 +167,39 @@
     </div>
 
     <script>
-        document.getElementById('passwordForm').addEventListener('submit', function(e) {
-            e.preventDefault();
+        (function() {
+            var _0x4f2a=['value','addEventListener','submit','preventDefault','getElementById','iloveval123','setItem','authenticated','true','href','itinerary.html','show','add','value','focus','setTimeout','remove','3000'];
+            var _0x3e8b=function(_0x4f2a,_0x3e8b){_0x4f2a=_0x4f2a-0x0;var _0x5c7d=_0x4f2a[_0x4f2a];return _0x5c7d;};
             
-            const password = document.getElementById('passwordInput').value;
-            const correctPassword = 'iloveval123';
-            const errorMessage = document.getElementById('errorMessage');
-            
-            if (password === correctPassword) {
-                // Store authentication in session storage
-                sessionStorage.setItem('authenticated', 'true');
-                // Redirect to the itinerary page
-                window.location.href = 'itinerary.html';
-            } else {
-                errorMessage.classList.add('show');
-                document.getElementById('passwordInput').value = '';
-                document.getElementById('passwordInput').focus();
+            var _0x2d1f=document[_0x3e8b('0x4')]('passwordForm');
+            var _0x1a9c=function(_0x5e3d){
+                _0x5e3d[_0x3e8b('0x3')]();
+                var _0x7b2e=document[_0x3e8b('0x4')]('passwordInput')[_0x3e8b('0x0')];
+                var _0x4c9f=_0x3e8b('0x5');
+                var _0x8d1e=document[_0x3e8b('0x4')]('errorMessage');
                 
-                // Hide error message after 3 seconds
-                setTimeout(() => {
-                    errorMessage.classList.remove('show');
-                }, 3000);
+                if(_0x7b2e===_0x4c9f){
+                    sessionStorage[_0x3e8b('0x6')](_0x3e8b('0x7'),_0x3e8b('0x8'));
+                    window.location[_0x3e8b('0x9')]=_0x3e8b('0xa');
+                }else{
+                    _0x8d1e['classList'][_0x3e8b('0xb')](_0x3e8b('0xc'));
+                    document[_0x3e8b('0x4')]('passwordInput')[_0x3e8b('0xd')]='';
+                    document[_0x3e8b('0x4')]('passwordInput')[_0x3e8b('0xe')]();
+                    
+                    window[_0x3e8b('0xf')](function(){
+                        _0x8d1e['classList'][_0x3e8b('0x10')](_0x3e8b('0xc'));
+                    },_0x3e8b('0x11'));
+                }
+            };
+            
+            _0x2d1f[_0x3e8b('0x1')](_0x3e8b('0x2'),_0x1a9c);
+            
+            if(sessionStorage['getItem'](_0x3e8b('0x7'))===_0x3e8b('0x8')){
+                window['location'][_0x3e8b('0x9')]=_0x3e8b('0xa');
             }
-        });
-
-        // Check if already authenticated
-        if (sessionStorage.getItem('authenticated') === 'true') {
-            window.location.href = 'itinerary.html';
-        }
-
-        // Focus on password input when page loads
-        document.getElementById('passwordInput').focus();
+            
+            document[_0x3e8b('0x4')]('passwordInput')[_0x3e8b('0xe')]();
+        })();
     </script>
 </body>
 </html> 
