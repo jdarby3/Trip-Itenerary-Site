@@ -1,5 +1,5 @@
 # Colorado Trip Itinerary Site
-============================
+
 Coded with the help of cursor
 
 A clean, professional itinerary for me and my girlfirend's trip
