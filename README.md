@@ -1,9 +1,5 @@
 # Colorado Trip Itinerary Site
 
-hosted at: jamesandvalcoloradotrip.netlify.app
-
-Coded with the help of cursor
-
 A clean, professional itinerary for me and my girlfirend's trip
 
 Used cursor, but started getting comfortable with some direct editing of HTML and CSS
